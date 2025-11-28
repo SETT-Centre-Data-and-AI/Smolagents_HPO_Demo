@@ -2,11 +2,11 @@
 
 By Matt Stammers
 
-25/11/2025
+25/11/2025 - Presented at HDUG, London
 
 ## What is this?
 
-![Smolagent_Logo]()
+![Smolagent_Logo](https://github.com/SETT-Centre-Data-and-AI/Smolagents_HPO_Demo/blob/main/img/HPO_smolagent.png)
 
 ## Explainer
 
@@ -17,9 +17,9 @@ I have picked out a handful of the experiments to illustrate different agent beh
 They demonstrate an MVP version of how the problem can be solved and were given in demonstration at HDUG 2025 - London @ St Mary's House, Euston as part of the data for R&D program.
 
 Quality Ranking:
-- The deepseek-14b agent is a very early experiment.
-- The gpt-oss20b agent is a middle-stage smolagent experiment.
-- The qwenv3-8b agent is the best performing.
+- The deepseek-14b agent is a very early experiment and tends to work but it doesn't do much. It was the third experiment I ran.
+- The gpt-oss20b agent is a middle-stage smolagent experiment which works some of the time but illustrates nicely how unreliable these agents can be in terms of performance.
+- The qwenv3-8b agent is the best performing and generally succeeds to a moderate degree within 4-10 steps. However, it sometimes goes down rabbit holes.
 
 All of them are slow are none are intended for any type of production purpose but they can be run on fairly basic HPC hardware from a single script.
 
