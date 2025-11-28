@@ -4,6 +4,12 @@ By Matt Stammers
 
 25/11/2025
 
+## What is this?
+
+![Smolagent_Logo]()
+
+## Explainer
+
 These agents are pure demo-agents to illustrate how an agent can solve a very simple HPO mapping problem using clinical psuedo-data. 
 
 I have picked out a handful of the experiments to illustrate different agent behaviours for this repo. I ran over 25 different experiments on 10 different LLMs to come up with these demo scripts.
@@ -26,7 +32,7 @@ All of them are slow are none are intended for any type of production purpose bu
 
 ```sh
 uv sync
-python src/(agent_name)
+python src/{agent_name}
 ```
 
 and the agent should run. If you run into problems please raise an issue as this has only been tested in linux environments.
