@@ -1,0 +1,11 @@
+[project]
+name = "HPO_Smolagent_Demo"
+version = "1.0.0"
+description = "HPO_Agent_Demo."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "smolagents[transformers]",
+]
+
+[tool.uv.sources]
