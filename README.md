@@ -48,3 +48,5 @@ These are not designed as any kind of production experiment but they do allow an
 UHSFT and Matt Stammers give no guarantees and take no legal responsibility for any use of this code which is provided for free under an MIT licence purely to demonstrate the principles of the how the HPO agent works and to allow others to build upon the experiment in their own way at their own risk because this project is an NHS funded project for the benefit of the wider public and the NHS.
 
 Funder: Data for R&D Driver Program, NHS England.
+
+Finally, I know that the bugs the agent finds in the first attempts could be easily solved with prompts. However, I left them in because they increase the failure rate which is what I wanted to simulate. If you make it too easy for the agent then you cannot test failures which was the point of this demo.
